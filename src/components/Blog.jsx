@@ -1,3 +1,6 @@
+import imagen from "../assets/imagen.jpg";
+import imagen2 from "../assets/imagen2.jpg";
+
 function Blog() {
   return (
     <div className="container mt-4">
@@ -11,7 +14,7 @@ function Blog() {
         <div className="col-md-6">
 
           <img
-            src="https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+            src={imagen}
             className="img-fluid rounded"
             alt="Comida saludable"
           />
@@ -29,7 +32,7 @@ function Blog() {
         <div className="col-md-6">
 
           <img
-            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+            src={imagen2}
             className="img-fluid rounded"
             alt="Ejercicio"
           />
@@ -45,6 +48,7 @@ function Blog() {
         </div>
 
       </div>
+
     </div>
   );
 }
